@@ -3,93 +3,97 @@ let cars = [
       "brand": "Toyota",
       "famousModel": "Camry",
       "color": "Super White",
-      "year": 1982
+      "image": "./images/toyota.jfif"
     },
     {
       "brand": "Ford",
       "famousModel": "Mustang",
       "color": "Race Red",
-      "year": 2022
+      "image": "./images/ford.jfif"
     },
     {
       "brand": "BMW",
       "famousModel": "3 Series",
       "color": "Alpine White",
-      "year": 2019
+      "image": "./images/bmw.jfif"
     },
     {
       "brand": "Mercedes-Benz",
       "famousModel": "C-Class",
       "color": "Obsidian Black",
-      "year": 2014
+      "image": "./images/merceds.webp"
     },
     {
       "brand": "Honda",
       "famousModel": "Civic",
       "color": "Crystal Black Pearl",
-      "year": 2022
+      "image": "./images/honda.jpg"
     },
     {
       "brand": "Tesla",
       "famousModel": "Model S",
       "color": "Midnight Silver Metallic",
-      "year": 2012
+      "image": "./images/tesla.webp"
     },
     {
       "brand": "Audi",
       "famousModel": "A4",
       "color": "Ibis White",
-      "year": 2018
+      "image": "./images/audi.jfif"
     },
     {
       "brand": "Chevrolet",
       "famousModel": "Corvette",
       "color": "Torch Red",
-      "year": 2016
+      "image": "./images/chevrolet.jfif"
     },
     {
       "brand": "Nissan",
       "famousModel": "Altima",
       "color": "Gun Metallic",
-      "year": 2015
+      "image": "./images/nissan.jfif"
     },
     {
       "brand": "Hyundai",
       "famousModel": "Elantra",
       "color": "Phantom Black",
-      "year": 2024
+      "image": "./images/hyundai.jfif"
     },
     {
       "brand": "Volkswagen",
       "famousModel": "Golf",
       "color": "Pure White",
-      "year": 2023
+      "image": "./images/volkswagen.jfif"
     },
     {
       "brand": "Porsche",
       "famousModel": "911",
       "color": "Guards Red",
-      "year": 2020
+      "image": "./images/porsche.jfif"
     },
     {
       "brand": "Lexus",
       "famousModel": "RX",
       "color": "Nebula Gray Pearl",
-      "year": 2017
+      "image": "./images/lexus.jfif"
     },
     {
       "brand": "Subaru",
       "famousModel": "Outback",
       "color": "Crystal White Pearl",
-      "year": 2014
+      "image": "./images/subaru.jpg"
     },
     {
       "brand": "Ferrari",
       "famousModel": "488",
       "color": "Rosso Corsa",
-      "year": 2015
+      "image": "./images/ferrari.jpg"
     }
   ]
 
-  
+  let main = document.querySelector("#main");
+
+  for(let keys in cars){
+    console.log(cars[keys].brand)
+  }
   
