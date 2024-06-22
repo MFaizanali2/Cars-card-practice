@@ -94,6 +94,16 @@ let cars = [
   let main = document.querySelector("#main");
 
   for(let keys in cars){
-    console.log(cars[keys].brand)
+    main.innerHTML += `
+  
+    <div class="card" style="width: 18rem;">
+  <img src="${cars[keys].image}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${cars[keys].brand}</h5>
+    <h5 class="card-title">${cars[keys].famousModel}</h5>
+    <h5 class="card-title">${cars[keys].color}</h5>
+    <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>`
   }
   
