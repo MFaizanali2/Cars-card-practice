@@ -9,25 +9,25 @@ let cars = [
       "brand": "Ford",
       "famousModel": "Mustang",
       "color": "Race Red",
-      "year": 1964
+      "year": 2022
     },
     {
       "brand": "BMW",
       "famousModel": "3 Series",
       "color": "Alpine White",
-      "year": 1975
+      "year": 2019
     },
     {
       "brand": "Mercedes-Benz",
       "famousModel": "C-Class",
       "color": "Obsidian Black",
-      "year": 1993
+      "year": 2014
     },
     {
       "brand": "Honda",
       "famousModel": "Civic",
       "color": "Crystal Black Pearl",
-      "year": 1972
+      "year": 2022
     },
     {
       "brand": "Tesla",
@@ -39,49 +39,49 @@ let cars = [
       "brand": "Audi",
       "famousModel": "A4",
       "color": "Ibis White",
-      "year": 1994
+      "year": 2018
     },
     {
       "brand": "Chevrolet",
       "famousModel": "Corvette",
       "color": "Torch Red",
-      "year": 1953
+      "year": 2016
     },
     {
       "brand": "Nissan",
       "famousModel": "Altima",
       "color": "Gun Metallic",
-      "year": 1992
+      "year": 2015
     },
     {
       "brand": "Hyundai",
       "famousModel": "Elantra",
       "color": "Phantom Black",
-      "year": 1990
+      "year": 2024
     },
     {
       "brand": "Volkswagen",
       "famousModel": "Golf",
       "color": "Pure White",
-      "year": 1974
+      "year": 2023
     },
     {
       "brand": "Porsche",
       "famousModel": "911",
       "color": "Guards Red",
-      "year": 1964
+      "year": 2020
     },
     {
       "brand": "Lexus",
       "famousModel": "RX",
       "color": "Nebula Gray Pearl",
-      "year": 1998
+      "year": 2017
     },
     {
       "brand": "Subaru",
       "famousModel": "Outback",
       "color": "Crystal White Pearl",
-      "year": 1994
+      "year": 2014
     },
     {
       "brand": "Ferrari",
