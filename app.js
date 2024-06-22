@@ -88,6 +88,12 @@ let cars = [
       "famousModel": "488",
       "color": "Rosso Corsa",
       "image": "./images/ferrari.jpg"
+    },
+    {
+      "brand": "lamborghini",
+      "famousModel": "Huracan Evo",
+      "color": "Crystal silver Pearl",
+      "image": "./images/Lamborghini.webp"
     }
   ]
 
