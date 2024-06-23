@@ -102,7 +102,7 @@ let cars = [
   for(let keys in cars){
     main.innerHTML += `
   
-    <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;">
+    <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;" data-aos="zoom-in" data-aos-duration="1000">
   <img src="${cars[keys].image}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${cars[keys].brand}</h5>
