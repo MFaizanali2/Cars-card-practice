@@ -108,8 +108,11 @@ let cars = [
     <h5 class="card-title">${cars[keys].brand}</h5>
     <h5 class="card-title">${cars[keys].famousModel}</h5>
     <h5 class="card-title">${cars[keys].color}</h5>
-    <a href="#" class="btn btn-primary">Buy Now</a>
+    <a href="#" class="btn btn-primary" onclick="buy();">Buy Now</a>
   </div>
 </div>`
+  }
+  function buy(){
+
   }
   
