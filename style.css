@@ -38,6 +38,11 @@ html,body{
     margin: 60px auto;
     display: flex;
     gap: 30px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    border-radius: 5px;
+}
+#form .det{
+    padding: 20px;
 }
 .form-label, .form-check-label{
     color: #fff;

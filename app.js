@@ -119,3 +119,7 @@ let cars = [
   function home(){
     window.location.href = "index.html"
   }
+
+  let output = document.querySelector("#output");
+  
+  
