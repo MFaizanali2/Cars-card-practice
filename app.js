@@ -45,7 +45,7 @@ let cars = [
       "brand": "Chevrolet",
       "famousModel": "Corvette",
       "color": "Torch Red",
-      "image": "./images/chevrolet.jfif"
+      "image": "./images/Chevrolet.jfif"
     },
     {
       "brand": "Nissan",
