@@ -33,3 +33,14 @@ html,body{
     margin-top: 10px;
     margin-left: 80px;
 }
+#form{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    gap: 30px;
+}
+.form-label, .form-check-label{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}

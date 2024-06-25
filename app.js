@@ -113,6 +113,9 @@ let cars = [
 </div>`;
   }
   function buy(){
-
+    window.location.href = "./detail.html"
   }
   
+  function home(){
+    window.location.href = "index.html"
+  }
