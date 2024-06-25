@@ -98,10 +98,38 @@ let cars = [
   ]
 
   let main = document.querySelector("#main");
+//   main.innerHTML = `
+//   <nav class="navbar w-100 h-20 navbar-expand-lg bg-body-tertiary">
+//   <div class="container-fluid">
+    
+//     <div class="new">
+//       <div class="collapse navbar-collapse" id="navbarScroll">
+//         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+//           <li class="nav-item">
+//           <a class="nav-link active" aria-current="page" href="#">Home</a>
+//           </li>
+//           <li class="nav-item">
+//           <a class="nav-link" href="#">Brands</a>
+//           </li>
+//           <li class="nav-item">
+//           <a class="nav-link" href="#">About</a>
+//           </li>
+//         <li class="nav-item">
+//           <a class="nav-link" href="#">Contact us</a>
+//         </li>
+//     </div>
+//       </ul>
+//       <form class="d-flex" role="search">
+//         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+//         <button class="btn btn-outline-success" type="submit">Search</button>
+//       </form>
+//     </div>
+//   </div>
+// </nav>`
 
   for(let keys in cars){
     main.innerHTML += `
-  
+
     <div class="card col-sm-12 col-md-6 col-lg-4 col-xl-3" style="width: 18rem;" data-aos="zoom-in" data-aos-duration="1000">
   <img src="${cars[keys].image}" class="card-img-top" alt="...">
   <div class="card-body">
